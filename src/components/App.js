@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Toolbar from "./components/Toolbar";
-import Workspace from "./components/Workspace";
+import Toolbar from "./Toolbar";
+import Workspace from "./Workspace";
 
 export default function App(props) {
   const [isMain, setIsMain] = useState(() => {

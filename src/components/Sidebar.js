@@ -7,5 +7,5 @@ export default function Sidebar(props) {
     sidebar: true,
     hidden: !props.sidebarActive,
   })
-  return <div className={classes}><h2 className="sidebar-header">Components</h2></div>;
+  return <div className={classes}><h2 className="sidebar-header">Blocks</h2></div>;
 }
